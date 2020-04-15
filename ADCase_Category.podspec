@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ADCase_Category/Classes/**/*'
+
+  s.dependency 'CTMediator'
   
   # s.resource_bundles = {
   #   'ADCase_Category' => ['ADCase_Category/Assets/*.png']

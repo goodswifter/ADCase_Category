@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		12669CD6244540010000E446 /* ADCase_Category-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADCase_Category-Prefix.pch"; sourceTree = "<group>"; };
-		2459573DCF1901A42BE71DD5 /* ADCase_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ADCase_Category.podspec; path = ../ADCase_Category.podspec; sourceTree = "<group>"; };
+		2459573DCF1901A42BE71DD5 /* ADCase_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ADCase_Category.podspec; path = ../ADCase_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ADCase_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCase_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +60,9 @@
 		A1650D939F1F69A30491FA55 /* Pods_ADCase_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADCase_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9908D937B236A6BC4500E7 /* Pods_ADCase_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADCase_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BC88F18C1798A1593366FE /* Pods-ADCase_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCase_Category_Tests.release.xcconfig"; path = "Target Support Files/Pods-ADCase_Category_Tests/Pods-ADCase_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C24A1AF2866243F7625A73FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C24A1AF2866243F7625A73FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E37DF977C7E3B1EC3A087907 /* Pods-ADCase_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCase_Category_Example.debug.xcconfig"; path = "Target Support Files/Pods-ADCase_Category_Example/Pods-ADCase_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBCC71F25D13C9DD7338BE7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FBCC71F25D13C9DD7338BE7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +179,6 @@
 				615F7051FB44A49789DBD98C /* Pods-ADCase_Category_Tests.debug.xcconfig */,
 				B1BC88F18C1798A1593366FE /* Pods-ADCase_Category_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,10 +286,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ADCase_Category_Example/Pods-ADCase_Category_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ADCase_Category/ADCase_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADCase_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
