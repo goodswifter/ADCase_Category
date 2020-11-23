@@ -1,5 +1,5 @@
 PODS:
-  - ADCase_Category (0.1.1):
+  - ADCase_Category (0.1.2):
     - CTMediator
   - CTMediator (44)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ADCase_Category: 859cb73e13a9b300be5cf02163e325c811781c24
+  ADCase_Category: bae766e7fa7aad3ec5b9e12220a4384cb81e7684
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
 
 PODFILE CHECKSUM: 87d40922dc2a695334a6f45071e6c3e1dea8479b
