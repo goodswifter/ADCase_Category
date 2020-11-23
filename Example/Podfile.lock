@@ -1,7 +1,7 @@
 PODS:
-  - ADCase_Category (0.1.0):
+  - ADCase_Category (0.1.1):
     - CTMediator
-  - CTMediator (31)
+  - CTMediator (44)
 
 DEPENDENCIES:
   - ADCase_Category (from `../`)
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ADCase_Category: 19468a223f998000a1aca0a925ab90c1902ec139
-  CTMediator: 24a1279bd0909608c7d6a704e660149cc64e5f87
+  ADCase_Category: 859cb73e13a9b300be5cf02163e325c811781c24
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
 
 PODFILE CHECKSUM: 87d40922dc2a695334a6f45071e6c3e1dea8479b
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0
